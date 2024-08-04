@@ -107,12 +107,12 @@ export const aboutData: About = {
     I enjoy solving challenging problems and learning new technologies. My passion lies in leveraging technology to drive 
     efficiency and enhance user experiences.`,
   aboutItems: [
-    { label: 'Location', text: 'Urbana, IL', Icon: MapIcon },
-    { label: 'Age', text: '26', Icon: CalendarIcon },
+    { label: 'Location', text: 'Boston, MA', Icon: MapIcon },
+    { label: 'Age', text: '25', Icon: CalendarIcon },
     { label: 'Nationality', text: 'Indian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Science Fiction, Comics, Swimming', Icon: SparklesIcon },
-    { label: 'Masters', text: 'University of Illinois Urbana Champaign', Icon: AcademicCapIcon },
-    { label: 'Bachelors', text: 'Birla Institute of Technology and Science, Pilani - Hyderabad', Icon: AcademicCapIcon },
+    { label: 'Interests', text: '', Icon: SparklesIcon },
+    { label: 'Masters', text: 'Carnegie Mellon University', Icon: AcademicCapIcon },
+    { label: 'Bachelors', text: 'Birla Institute of Technology and Science, Pilani', Icon: AcademicCapIcon },
   ],
 };
 
@@ -401,7 +401,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  //description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
       type: ContactType.Email,
