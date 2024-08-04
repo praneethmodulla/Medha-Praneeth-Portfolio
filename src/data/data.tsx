@@ -43,7 +43,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Veeresh Kande Portfolio',
+  title: 'Medha Praneeth Modulla',
   description: "Site built with React, Next.js, and Tailwind CSS",
 };
 
@@ -68,18 +68,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Veeresh Kande.`,
+  name: `I'm Medha Praneeth Modulla.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am a <strong className="text-stone-100">Software Development Engineer </strong>, currently pursing Master's in Information Management,
-        at the <strong className="text-stone-100">University of Illinois Urbana Champaign</strong>. My expertise spans diverse programming languages,
-        databases, and development tools, developing both Full staack and Android applications,My passion is leveraging
-        technology to drive efficiency and enhance user experiences.
-
+        I'm a <strong className="text-stone-100">Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">InterSystems </strong> helping build a InterSystems Data Fabric Studio.
       </p>
       <p className="font-style: italic prose-sm text-white sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me watching anime, or reading science fiction or historic documentaries or exploring the campus or swimming.
+        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
     </>
   ),
@@ -309,75 +308,67 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'August 2023 - December 2024',
-    location: 'University of Illinois Urbana Champaign',
-    title: 'Masters in Information Management',
-    content: <p>At the University of Illinois Urbana-Champaign, I gained a strong foundation in Data Science and
-      learned how machine learning technology started and evolved into Generative AI. I got hands-on experience
-      integrating Generative AI into software applications. I also learned how to work with large datasets and how
-      to apply this knowledge to real-world problems.</p>
+    date: 'August 2022 - December 2023',
+    location: 'Carnegie Mellon Universtiy',
+    title: 'Master of Information Systems Management',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'August 2016 - July 2020',
-    location: 'Birla Institute of Technology and Science, Pilani - Hyderabad',
-    title: 'Bachelor of Engineering in Civil Engineering',
-    content: <p> At BITS Pilani, I gained a strong fundamental understanding of civil engineering and had the opportunity to explore courses in data science.
-      I worked on projects that applied AI in civil engineering, such as using machine learning for Structural Health Monitoring and analyzing precipitation data
-      in Hyderabad to devise optimal strategies for preventing floods and pollution of rainwater.</p>,
+    date: 'August 2016 - May 2020',
+    location: 'Birla Institute of Technology and Science, Pilani',
+    title: 'Bachelor of Engineering in Electronics and Instrumentation',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'September 2022 - August 2023',
-    location: 'GameBerry Labs',
-    title: 'Software Development Engineer',
+    date: 'March 2024 - Present',
+    location: 'InterSystems Corporation',
+    title: 'Software Engineer, Quality Development',
     content: (
       <p>
-        At Gameberry Labs, I focused on developing Android and iOS mobile game applications, ensuring optimal performance and scalability.
-        I implemented new features, optimized existing ones, and enhanced internal tools using React to improve team efficiency. My work involved using Golang
-        for backend development and C++ with the Cocos Game Engine for the Game UI.
+        I developed end-end tests for InterSystems Data Fabric Studio using Seleniumbase framework in Python.
       </p>
     ),
   },
   {
-    date: 'Septemger 2020 - September 2023',
-    location: 'OYO (Oravel Stays Private Limited)',
-    title: 'Software Development Engineer',
+    date: 'May 2023 - August 2023',
+    location: 'Honeywell',
+    title: 'Software Engineer Intern',
     content: (
       <p>
-        At OYO, I was responsible for developing new features and maintaining the backend of OYO’s Pricing and Inventory system, which is developed using Progress ABL.
-        I worked on migrating the existing monolithic codebase to a Spring Boot microservices architecture. Additionally, I created Grafana dashboards and alerts to
-        monitor service health and developed Jenkins pipelines to automate the code deployment process. I also migrated the backend application from PHP to Azure and
-        enhanced the existing machine learning model to improve hotel inventory management.
+        At Honeywell, I was responsible for creating a web page with Angular 6 to enhance emergency access to 
+        building information and developing backend functionalities in C# to manage and store crucial building data in the customer database.
       </p>
     ),
   },
   {
-    date: 'January 2020 - July 2020',
-    location: 'eGovernments Foundation',
-    title: 'Software Development Engineer Intern',
+    date: 'July 2020 - July 2022',
+    location: 'Intel Corporation',
+    title: 'Software Application Development Engineer',
     content: (
       <p>
-        Developed experimental full stack web applications for a state government project using the MERN stack (MongoDB, Express, React, Node.js).
-        These applications facilitated the creation and tracking of road cutting requests, improving project management and efficiency.
+        During my time at Intel, I was responsible for creating custom browser-based applications for the assembly and test factories using .NET Framework and WPF. 
+        I designed and implemented PL/SQL stored procedures to enforce business rules and maintain data integrity within the production line systems. I also automated 
+        manual test cases for factory automation software, which significantly reduced testing time. In addition, I oversaw the deployment of factory automation software, 
+        working with stakeholders to minimize downtime during updates. I collaborated with cross-functional teams to streamline project dependencies and expedite delivery. 
+        Furthermore, I provided L3 support by addressing complex technical issues reported by customers, demonstrating strong debugging and problem-solving skills, effectively 
+        minimizing production impact.
       </p>
     ),
   },
   {
-    date: 'May 2018 - July 2018',
-    location: 'Tamil Nadu e-Governance',
-    title: 'Software Development Engineer',
+    date: 'July 2019 - December 2019',
+    location: 'Intel Corporation',
+    title: 'Software Engineer Intern',
     content: (
       <p>
-        Developed a dynamic dashboard for the Tamil Nadu eGovernance customer service team using RShiny and R. The dashboard featured current unresolved calls
-        and options to display top counts for services and areas receiving the most calls. This tool enabled the team to analyze data effectively and improve customer
-        awareness of government digital services.
+        As an intern at Intel, I spearheaded the migration project for the Recipe Management System from Microsoft 2008 to 2016 servers, within the stipulated timeline with 
+        minimal disruption to operations. I also developed UI functionalities using Windows Presentation Foundation and constructing platform API's in C#.
       </p>
     ),
   },
-
-
 ];
 
 /**
@@ -410,27 +401,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: '',
+  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
       type: ContactType.Email,
-      text: 'veeresh1729@gmail.com',
-      href: 'mailto:veeresh1729@gmail.com',
+      text: 'mmodulla@alumni.cmu.edu',
+      href: 'mailto:mmodulla@alumni.cmu.edu',
     },
-    // {
-    //   type: ContactType.Location,
-    //   text: 'Victoria BC, Canada',
-    //   href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    // },
     {
-      type: ContactType.LinkedIn,
-      text: 'Veeresh Kande',
-      href: 'https://www.linkedin.com/in/veeresh-kande-4ba207164/',
+      type: ContactType.Location,
+      text: 'Boston MA, United States of America',
+      href: 'https://www.google.com/maps/place/Boston,+MA/@42.3143205,-71.052684,12z/data=!3m1!4b1!4m6!3m5!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!8m2!3d42.3600825!4d-71.0588801!16zL20vMDFjeF8?entry=ttu',
+    },
+    {
+      type: ContactType.Linkedin,
+      text: 'Medha Praneeth Reddy Modulla',
+      href: 'https://www.linkedin.com/in/reddymedhapraneeth/',
     },
     {
       type: ContactType.Github,
-      text: 'veeresh09',
-      href: 'https://github.com/veeresh09',
+      text: 'praneethmodulla',
+      href: 'https://github.com/praneethmodulla',
     },
   ],
 };
@@ -439,9 +430,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/veeresh09' },
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/praneethmodulla' },
   // { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/veeresh-kande-4ba207164/' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/reddymedhapraneeth/' },
   // { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/' },
   // { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx' },
 ];
