@@ -414,7 +414,7 @@ export const contact: ContactSection = {
       href: 'https://www.google.com/maps/place/Boston,+MA/@42.3143205,-71.052684,12z/data=!3m1!4b1!4m6!3m5!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!8m2!3d42.3600825!4d-71.0588801!16zL20vMDFjeF8?entry=ttu',
     },
     {
-      type: ContactType.Linkedin,
+      type: ContactType.LinkedIn,
       text: 'Medha Praneeth Reddy Modulla',
       href: 'https://www.linkedin.com/in/reddymedhapraneeth/',
     },
