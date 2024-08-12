@@ -73,12 +73,10 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">InterSystems </strong> helping build a InterSystems Data Fabric Studio.
+        at <strong className="text-stone-100">InterSystems </strong> helping build InterSystems Data Fabric Studio.
       </p>
       <p className="font-style: italic prose-sm text-white sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me in gym, reading books, or exploring cities.
       </p>
     </>
   ),
@@ -102,10 +100,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a final-year graduate student at the University of Illinois Urbana-Champaign, working on projects that
-   integrate Generative AI technology into software applications. I am proficient in React, Python, Golang, and Java, and
-    I enjoy solving challenging problems and learning new technologies. My passion lies in leveraging technology to drive 
-    efficiency and enhance user experiences.`,
+  description: `I am a Software Engineer at InterSystems, based out of Boston, MA. I hold a Master of Information 
+  Systems Management degree from Carnegie Mellon University and a BE in Electronics Engineering from BITS Pilani.
+  I am a Java and Python programmer with over three years of experience developing web solutions. I leverage 
+  programming expertise to develop tailored solutions that optimize business process and productivity.`,
   aboutItems: [
     { label: 'Location', text: 'Boston, MA', Icon: MapIcon },
     { label: 'Age', text: '25', Icon: CalendarIcon },
