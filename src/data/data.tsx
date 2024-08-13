@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/wip',
+      href: 'https://github.com/praneethmodulla/Medha-Praneeth-Portfolio/blob/main/src/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
