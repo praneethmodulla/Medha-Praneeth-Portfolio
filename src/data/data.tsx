@@ -281,13 +281,13 @@ export const education: TimelineItem[] = [
     date: 'August 2022 - December 2023',
     location: 'Carnegie Mellon Universtiy',
     title: 'Master of Information Systems Management',
-   // content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p></p>,
   },
   {
     date: 'August 2016 - May 2020',
     location: 'Birla Institute of Technology and Science, Pilani',
     title: 'Bachelor of Engineering in Electronics and Instrumentation',
-   // content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p></p>,
   },
 ];
 
